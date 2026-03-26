@@ -13,8 +13,9 @@ const checkWinner = (box) => {
         (boxess[0].innerText !== "" && boxess[0].innerText === boxess[4].innerText && boxess[4].innerText === boxess[8].innerText) || // Diag 1
         (boxess[2].innerText !== "" && boxess[2].innerText === boxess[4].innerText && boxess[4].innerText === boxess[6].innerText)    // Diag 2
     ) {
-        console.log("Winner MIL GAYA");
-        alert("GAME OVER."); // Winner message
+        console.log("Winner");
+              alert("WINNER IN CONSOLE PLEASE CHECK YOUR RESULT"); 
+        alert("GAME OVER ENTER TO RESTART."); // Winner message
         window.location.href= "index.html" ;
     }
 }

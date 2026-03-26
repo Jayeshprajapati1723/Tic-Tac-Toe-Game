@@ -15,7 +15,7 @@ const checkWinner = (box) => {
     ) {
         console.log("Winner MIL GAYA");
         alert("GAME OVER."); // Winner message
-        window.location.href= "ttt.html" ;
+        window.location.href= "index.html" ;
     }
 }
 

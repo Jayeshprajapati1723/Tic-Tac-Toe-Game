@@ -19,12 +19,26 @@
 }
 
 #bt1 {
-    color: white ;
+        margin-top: 30px;
+    padding: 12px 35px;
+background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); /* Electric Blue Gradient */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.4);
+    transition: transform 0.2s;
+
+    /* color: white ;
     background-color: red ;
-    text-align: center;
+    text-align: center; */
 }
 
-
+h1{
+    align-items: center;
+}
 
 
 .boxes {
